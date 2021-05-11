@@ -1,3 +1,4 @@
+/********** base **********/
 *
 {
 	box-sizing:border-box
@@ -24,6 +25,8 @@
 {
 	background-color:var(--primary-color)!important
 }
+
+/********** for Header **********/
 .Header
 {
 	text-align:center;
@@ -68,6 +71,9 @@
 {
 	font-size:x-large
 }
+
+/********** for dark mode **********/
+
 .dark-mode
 {
 	filter:invert(1) hue-rotate(180deg);
@@ -80,7 +86,7 @@
 	-webkit-filter:invert(1) hue-rotate(180deg);
 	-moz-filter:invert(1) hue-rotate(180deg)
 }
-
+/* to invert the film image to normal hue */
 .film-image {
 	filter:invert(1) hue-rotate(180deg);
 	-webkit-filter:invert(1) hue-rotate(180deg);
@@ -126,6 +132,8 @@
 	right:10px;
 	left:auto
 }
+
+/********** for the About section **********/
 .Photo
 {
 	background-color:#fff;
@@ -156,6 +164,8 @@
 	border-bottom:solid 2pxvar (--primary-color);
 	margin-bottom:15px
 }
+
+/* skill section */
 .skill__square
 {
 	display:inline;
@@ -186,6 +196,8 @@
 	padding:3%;
 	justify-content:center
 }
+
+/********** for all the tech projects **********/
 .project-card
 {
 	margin-top:15px;
@@ -686,6 +698,8 @@
     padding: 0 !important;
 }
 
+
+/********** for the film projects **********/
 .film-card {
 	display: flex;
 	flex-direction: row;
@@ -698,10 +712,6 @@
 	object-fit:cover;
 	margin-left: 1.5rem;
 }
-
-/* .film-title {
-	margin-left: 3rem;
-} */
 
 .film-year {
     transform: rotate(-90deg);
